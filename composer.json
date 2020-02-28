@@ -1,0 +1,20 @@
+{
+    "name": "skywire/n98config",
+    "description": "Auto installing n98 config",
+    "type": "library",
+    "require": {
+        "skywire/file-copy-plugin": "^1.1"
+    },
+    "extra": {
+        "copy-file": {
+            "vendor/skywire/n98config/n98-magerun2.yml": "app/etc/n98-magerun2.yml!"
+        }
+    },
+    "repositories": {
+        "private-packagist": {
+            "type": "composer",
+            "url": "https://repo.packagist.com/skywire/"
+        },
+        "packagist.org": false
+    }
+}
