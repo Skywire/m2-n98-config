@@ -7,7 +7,7 @@
     },
     "extra": {
         "copy-file": {
-            "vendor/skywire/n98config/n98-magerun2.yml": "app/etc/n98-magerun2.yml!"
+            "vendor/skywire/n98config/n98-magerun2.yaml": "app/etc/n98-magerun2.yaml!"
         }
     },
     "repositories": {
